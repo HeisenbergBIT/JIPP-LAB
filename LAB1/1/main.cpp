@@ -31,7 +31,9 @@ void print_array(int array[], int n)
 
 int main(int argc, char *argv[])
 {
-    int *tablica = new int[argc - 1];
+    int *tablica;
+    
+        tablica = new int[argc - 1];
 
     for(int i=0; i<argc -1; i++)
     {
@@ -45,6 +47,8 @@ int main(int argc, char *argv[])
 
     cout << "Out:";
         print_array(tablica, argc - 1);
-
+    
+    delete [] tablica;
+    
 return 0;
 }
