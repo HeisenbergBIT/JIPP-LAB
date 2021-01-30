@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/employee.hpp
+iostream
+-
+
+../include/hrms.hpp
+iostream
+-
+vector
+-
+map
+-
+employee.hpp
+../include/employee.hpp
+
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/employee.cpp
+iostream
+-
+employee.hpp
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/employee.hpp
+
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/hrms.cpp
+iostream
+-
+hrms.hpp
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/hrms.hpp
+string
+-
+algorithm
+-
+
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/main.cpp
+iostream
+-
+employee.hpp
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/employee.hpp
+hrms.hpp
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/src/hrms.hpp
+

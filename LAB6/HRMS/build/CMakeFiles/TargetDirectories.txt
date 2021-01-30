@@ -1,0 +1,3 @@
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/build/CMakeFiles/hrms.dir
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/build/CMakeFiles/edit_cache.dir
+C:/Users/mikol/OneDrive/Pulpit/JIPP2/LAB6/HRMS/build/CMakeFiles/rebuild_cache.dir
