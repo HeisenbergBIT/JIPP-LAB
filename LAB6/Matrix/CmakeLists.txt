@@ -1,0 +1,9 @@
+cmake_minimum_required( VERSION 3.0 )
+
+project(HRMS)
+
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories( ./include ./src )
+
+add_executable(hrms ./src/main.cpp ./src/employee.cpp ./src/hrms.cpp )
